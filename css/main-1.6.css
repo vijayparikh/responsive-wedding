@@ -152,8 +152,8 @@ body {
 
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(0, 0, 0);
-    /* RGBa with 0.7 opacity */
-    background: rgba(0, 0, 0, 0.4);
+    /* RGBa with 0.7 opacity*/
+    background: rgba(0, 0, 0, 0.0);
     /* For IE 5.5 - 7*/
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000);
     /* For IE 8*/
@@ -398,7 +398,7 @@ section h2 {
         padding: 15px 1%;
         margin-bottom: 0;
         display:inline-block;
-        font-size: 60%;
+        font-size: 40%;
         white-space: nowrap;
 
         -moz-font-smoothing: antialiased;
@@ -415,7 +415,7 @@ section h2 {
     }
 
     .main header {
-        margin-top: 10%;
+        margin-top: 20%;
         float: left;
         width: 40%;
         min-width: 320px;
@@ -451,7 +451,7 @@ section h2 {
     }
 
     .oldie nav a {
-        margin: 0 0.7%;
+        margin: 0 0.4%;
     }
 }
 
@@ -493,15 +493,15 @@ section h2 {
    ============ */
 
     .main header {
-        margin-top: 10%;
-        margin-bottom: 30%;
+        margin-top: 20%;
+        margin-bottom: 50%;
         float: left;
         width: 100%;
     }
 
     nav a {
         padding: 15px 2%;
-        font-size: 90%;
+        font-size: 60%;
     }
 }
 @media only screen and (min-width: 900px) {
@@ -540,7 +540,7 @@ section h2 {
 
     nav a {
         padding: 15px 3%;
-        font-size: 120%;
+        font-size: 80%;
     }
 
     .wrapper {
@@ -566,7 +566,7 @@ section h2 {
     }
 
     .main header {
-        margin-top: 4%;
+        margin-top: 16%;
         margin-bottom: 30%;
         float: left;
         width: 100%;
