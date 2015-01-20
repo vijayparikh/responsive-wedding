@@ -27,6 +27,7 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
         <script src="js/vendor/galleria/galleria-1.4.2.min.js"></script>
+        <script src="js/vendor/countdown_v5.0/countdown.js"></script>
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 
         <style>
@@ -49,11 +50,11 @@
                         <ul>
                             <li><a href="#brideandgroom">THE BRIDE &amp; GROOM</a></li>
                             <li><a href="#wedding">EVENTS</a></li>
-                            <li><a href="#accomodations">ACCOMODATIONS</a></li>
+                            <li><a href="#hotel">ACCOMODATIONS</a></li>
                             <!-- <li><a href="#registry">REGISTRY</a></li> -->
                             <!-- <li><a href="#album">ALBUM</a><li> -->
                             <li><a href="#rsvp">RSVP</a></li>
-                            <li><a href="">CONTACT</a></li>
+                            <li><a href="#guestinfo">GUEST INFO</a></li>
                         </ul>
 
                     </nav>
@@ -71,6 +72,38 @@
                                 Rupal
                             </span>
                             <div class="date">MAY 9<sup>th</sup>, 2015</div>
+                            <div id="timer" align="center">
+<script type="application/javascript">
+/*
+1 hour = 3600 seconds
+1 day = 86400 seconds
+1 week = 604800 seconds
+1 month = 2629744 seconds 
+1 year = 31556926 seconds
+*/
+
+
+
+var myCountdown1 = new Countdown({
+                                    year: 2015, // I'm cheating here... so I don't have to update this every year!
+                                    month:5, 
+                                    day:9,
+                                    width:440, 
+                                    height:80,
+                                    style:"flip",
+                                    rangeHi:"month",
+                                    hideLabels  : false,
+                                    labels :   {
+                                         font   : "Arial",
+                                         color  : "#FFFFFF",
+                                         offset : 0, // Number of pixels to push the labels down away from numbers. 
+                                         textScale  : 0.7, // Percentage of size
+                                         weight : "normal"   // < - no comma on last item!
+                                     }   // < - no comma on last item! // Set to true to hide the text labels
+                                    });
+
+</script>
+</div>
                         </div>
                     </header>
 
@@ -192,7 +225,7 @@
 
                         </div><!--end column--> 
                         <div class="column right">
-                            <h2>Wedding Ceremony</h2>
+                            <h2>Wedding</h2>
                             <p>
                                 Hyatt Regency Long Island<br />
                                 1717 Motor Parkway<br />
@@ -202,7 +235,13 @@
                                  <br /><br />
                                  Saturday May 9th, 2015
                                 <br/><br />
-                                * Reception to follow <br /><br /><br />
+                                10:30 am Baraat (Groom's party arrives)<br/>
+                                12:00 pm Wedding Ceremony<br/>
+                                1:30 pm   Lunch<br/>
+                                2:30 pm   Vidai (Farewell)<br/>
+                                <br/>
+                                6:30 pm   Cocktail Reception<br/>
+                                8:00 pm   Reception<br/>
                             </p>
                         </div><!--end column-->        
                     </section>
@@ -465,6 +504,140 @@
                         </div>
                     </section>
 
+                    <section id="hotel" class="clearfix">
+                       <div class="column full">
+                        <h1>Accomodations</h1>
+
+                        <div>
+                        <p>
+                        <img src="img/hotel.jpg" align="center" style="padding:10px;"/>
+                        </p>
+                        <p>
+                        Hyatt Regency Long Island<br />
+                        1717 Motor Parkway<br />
+                        Hauppauge, New York, USA, 11788,<br />
+                        Tel: +1 631 784 1234<br />
+                        Fax: +1 631 232 9853<br />
+                        </p>
+               
+
+                        <p>
+                        A block of rooms have been reserved under the "Akruwala-Gupta" group.  You can reserve online <a href="https://resweb.passkey.com/Resweb.do?mode=welcome_gi_new&groupID=39677125">here</a> or call 1-800-223-1234 to contact the hotel directly. 
+                        </p>
+
+                        <p>
+                            <iframe width="100%" height="450" frameborder="0" style="border:0"
+                            src="https://www.google.com/maps/embed/v1/place?q=Hyatt+Regency+Long+Island,+Motor+Parkway,+Hauppauge,+NY,+United+States&key=AIzaSyCSi-25nDTDR3iAVHwVdjJ2pwNzDalylYI"></iframe>
+                        </p>
+
+                        <h2>Transportation</h2>  
+                        <h3>Air</h3> 
+                        <p>
+                        <b>Long Island MacArthur Airport</b>, 6.8 miles, 15 min by car or public bus available. Public Bus - Suffolk County Bus Transit Phone 631-853-5200 (Call for schedule)<br>
+
+                        *Note: there are not too many direct flights to MacArthur Airport but if you find a flight it is by far the most convenient airport. Laguardia/JFK are the 2nd best, and most common options. 
+                        </p>
+
+                        <p>
+                        <b>Laguardia Airport (LGA)</b>, 40.7 miles, about 48 minutes by car
+                        </p>    
+                        <p>
+                        <b>John F. Kennedy Airport (JFK)</b>, 40.6 miles, about 50 minutes by car
+                        </p>
+                        <p>
+                        <b>Newark Liberty International Airport (EWR)</b>, 69.2 miles, 1 hour 30 minutes by car
+                        </p>
+
+                        <h3>Rail</h3>
+                        <p>
+                        <a href="http://lirr42.mta.info/"><b>Long Island Railroad</b></a>:<br>
+                        From Ronkonkama Train Station:<br>
+                        Station is 10 minutes away from the hotel and the cost of taxi from the station is $10-$20 each way.
+                        </p>
+
+                        
+                        <h3>Car</h3>
+                        <p>
+                        <b>From Manhattan, and Points West:</b><br>
+                        Midtown Tunnel to Long Island Expressway (495) East to Exit 57 (Veterans Memorial Highway). Turn left at the light onto Motor Parkway. Continue on Motor Parkway and our Long Island NY luxury hotel is on the left.
+                        </p>
+                        <p>
+                        <b>From Eastern Long Island:</b><br>
+                        Long Island Expressway (495) West to Exit 57 (Veterans Memorial Highway). Make a right onto Veterans Memorial Highway. At the light make a right onto Motor Parkway. Continue on Motor Parkway and the hotel is on the left.
+                        </p>
+
+                        <p>
+                        <b>From Long Island MacArthur Airport (ISP):</b><br>
+                        7 miles from Hyatt Regency Long Island<br>
+                        Start going South on Johnson Ave. Take RT-454 W ramp toward I-495. Turn Slight right onto 454W for 5 miles and then take slight right onto Long Island Motor Parkway.
+                        </p>
+
+                        <p>
+                        <b>From LaGuardia Airport:</b></br>
+                        41 miles from Hyatt Regency Long Island<br>
+                        Grand Central Parkway East to Northern Parkway to Long Island Expressway (495) East to Exit 57 (Veterans Memorial Highway). Turn left at the light onto Motor Parkway. Continue on Motor Parkway and the hotel is on the left.
+                        </p>
+
+                        <p>
+                        <b>From JFK Airport:</b></br>
+                        42 miles from Hyatt Regency Long Island<br>
+                        Belt Parkway East to Southern Parkway (left hand exit). Southern Parkway to exit 41A left lane the Sagtikos Parkway North. Sagtikos Parkway North to exit S1E Long Island Expressway (495) East to Exit 57 (Veterans Memorial Highway). Turn left at the light onto Motor Parkway. Continue on Motor Parkway and the hotel is on the left.
+                        </p>
+
+                        <p>
+                        <b>From South:</b></br>
+                        I-95 North to the New Jersey Turnpike. New Jersey turnpike to the Lincoln Tunnel Exit. Merge onto NJ-495 East. Merge onto I-495 East. Stay straight to go onto Dyer Avenue. Turn left onto W. 34th Street. Turn left onto Tunnel Approach Street/Queens Midtown Tunnel Approach/I-495 East. Take the Queens Midtown Tunnel ramp. Merge onto I-495 East ( Long Island Expressway). Long Island Expressway (495) East to Exit 57 (Veterans Memorial Highway). Turn left at the light onto Motor Parkway. Continue on Motor Parkway and the hotel is on the left.
+                        </p>
+
+                        <p>
+                        <b>From North:</b></br>
+                        I-95 South to I-695 South via Exit 7A on the left toward I-295/ Throgs Neck Bridge/Long Island. I-695 South becomes I-295 South. Go over the Throgs Neck Bridge and take the Cross Island Parkway exit toward Eastern Long Island. Merge onto the Long Island Expressway (495) East via exit 30E. Long Island Expressway (495) East to Exit 57 (Veterans Memorial Highway). Turn left at the light onto Motor Parkway. Continue on Motor Parkway and the hotel is on the left.
+                        </p>
+
+
+                       </div>
+                    </section>
+
+
+
+                    <section id="guestinfo" class="clearfix">
+                        <div class="column full">
+                        <h1>Guest Info</h1>
+
+                        <h2> Garba </h2>
+                        <p>
+                        <br>
+                        <i>What is Raas-Garba??</i><br>
+                        <br>
+                        The Raas-Garba is an evening of traditional Indian dance and music. Our Raas-Garba is on Friday night, May 8th. The garba is a traditional Gujurati dance where everyone dances in concentric circles. There are simple garba steps, and there are more complex ones—these involve up to eight steps that are repeated over and over. Usually, the innermost circles have the most complicated steps, and the outer rings are more like people just walking in a circle and clapping. Garba is continuous, however, you don’t have to participate the whole time—people join and leave constantly. The music gradually speeds up and is quite fast and energetic at the end.
+                        </p>  
+                        <p>
+                        The raas music works the same way, but the dance is different—it’s performed with the dandiya, which are pairs of painted footlong wooden sticks. It’s also performed with a partner (same gender, opposite gender, doesn’t matter), and it involves 5 easy steps done over and over again (we’ll teach everyone at the beginning of the night and (you can also look it up on youtube). It is easy to pick up, you can either jump in or learn as you go or practice a few times on the side until you are ready to join in. Raas can be done in pairs, or in a line of couples where people rotate down the line. Sometimes (after 20-30 minutes when you’re ready to get more creative), groups form new lines with more complicated steps; one popular one is often referred to as “12 step”. It’s really, really fun. Raas is also easy come-easy go; the only caveat is that you usually have to join/leave in pairs, so there isn’t an odd person out.
+                        </p>   
+
+                        <p>
+                        <br>
+                        <i>What does one wear to a Raas-Garba?</i><br>
+                        <br>
+                         Raas-Garbas tend to have a carnival atmosphere: lots of kids running around, loud music, and it will probably get hot and sweaty with the dancing. Also, when you get really into Garba and Raas dancing, you end up taking pretty big steps and even jumping around a little or a lot. If you want to buy traditional Indian outfits we will include some websites below and/or you can go to local Indian clothing stores in your area. Men typically wear Kurta/pajamas and women wear “chunia-choli”, or “Ghagra choli” or “lehngha”. If you do not have Indian clothes, men can wear business casual (khakhi/shirt)- no tie needed or Jeans and a nice button down.  Women can wear long skirts and a fun top. Think bright colors/beads, sequins, rhinestones are all good. Not too much skin. 
+                        </p>
+
+                        <p>
+                        Both dances are traditionally done *barefoot*, and bring shoes you don’t mind taking off and leaving in a corner somewhere. 
+                        </p>
+
+                        <p>
+                        Popular links to purchase Indian Clothes: <br>
+                        <ul>
+                            <li><a href="http://www.utsavfashion.com/?gclid=CjwKEAiAw56lBRCs29jB9uOvkygSJADnD3-6ye0TJ5tyt0SXiMF-IG1jHknKbSXBisMR_H0CsYZXfxoCQlPw_wcB">Utsav Fasion</a></li>
+                            <li><a href="http://www.cbazaar.com/?gclid=CjwKEAiAw56lBRCs29jB9uOvkygSJADnD3-6eauHxBhwPTTFwBCdDzCQHeA6xbfIeokKZVOOVpH7tBoCqdbw_wcB">Cbazaar</a></li>
+                            <li><a href="http://www.aishwaryadesignstudio.com/">Aishwary</a></li>
+                        </ul>
+                        </p>
+
+                             
+                        </div>
+                    </section>
 
                     <div style="height: 300px"></div>
 
@@ -473,17 +646,4 @@
         </div> <!-- #bg-container -->
 
         <script src="js/main-1.6.js"></script>
-
-        <script>
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-XXXXXXX-XX']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        </script>
-
 </html>
