@@ -27,7 +27,7 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
         <script src="js/vendor/galleria/galleria-1.4.2.min.js"></script>
-
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 
         <style>
             .galleria{ width: 100%; height: 480px; background: #000; float: center; }
@@ -65,7 +65,7 @@ http://scal.io -- check us out.
                             <li><a href="#accomodations">ACCOMODATIONS</a></li>
                             <li><a href="#registry">REGISTRY</a></li>
                             <li><a href="#album">ALBUM</a><li>
-                            <li><a href="">RSVP</a></li>
+                            <li><a href="#rsvp">RSVP</a></li>
                             <li><a href="">CONTACT</a></li>
                         </ul>
 
@@ -190,6 +190,7 @@ http://scal.io -- check us out.
                         </div><!--end column-->
                
                     </section>
+
 
                     <section id="album" class="clearfix">
 
@@ -374,6 +375,63 @@ http://scal.io -- check us out.
                         </div><!--end column-->
                
                     </section>
+
+                    <section id="rsvp" class="clearfix" >
+                        <div class="column full">
+                            <h1>Rsvp</h1>
+
+                            <p>
+                            </p>
+
+                            <form class="pure-form pure-form-aligned" method="post">
+                                <fieldset>
+                                    <div class="pure-control-group">
+                                        <label for="name">Name</label>
+                                        <input id="name" type="text" placeholder="">
+                                    </div>
+                                    <div class="pure-control-group">
+                                          <label for="email">Email</label>
+                                          <input id="email" type="email" placeholder="Email">
+                                    </div>
+
+
+                                    <div class = "pure-controls">
+                                        <label >
+                                            Please attendance breakdown by:
+                                        </label>
+
+                                        <div class="pure-control-group">
+                                            <label for="number_garba">Garba</label>
+                                            <input id="number_garba" type="email" placeholder="">
+                                        </div>
+
+                                        <div class="pure-control-group">
+                                            <label for="number_wedding">Wedding</label>
+                                            <input id="number_wedding" type="text" placeholder="">
+                                        </div>
+
+                                        <div class="pure-control-group">
+                                            <label for="number_reception">Reception</label>
+                                            <input id="number_reception" type="text" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="pure-control-group">
+                                        <label >
+                                           Please list name of all attending
+                                        </label>
+                                        <textarea cols="40" rows="5" name="attendees">
+                                        </textarea>
+                                    </div>
+
+                                    <div class="pure-controls">
+                                        <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </section>
+
 
                     <div style="height: 300px"></div>
 
