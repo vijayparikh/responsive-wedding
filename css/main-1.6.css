@@ -3,6 +3,9 @@ h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
     font-weight: normal;
 }
 
+
+
+
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -15,9 +18,32 @@ textarea {
     color: #222;
 }
 
+html {
+    background-image:url('../img/bg-pic.jpg');
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
 body {
     font-size: 1em;
     line-height: 1.4;
+
+
 }
 
 ::-moz-selection {
